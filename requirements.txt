@@ -1,0 +1,25 @@
+#RAG
+langchain
+langchain-community
+langchain-huggingface
+sentence-transformers
+faiss-cpu 
+numpy
+
+google-genai
+python-dotenv
+
+groq
+nltk
+pandas
+openpyxl
+transformers
+torch
+sentencepiece
+streamlit
+scikit-learn
+plotly
+
+
+# for scheduler
+schedule
