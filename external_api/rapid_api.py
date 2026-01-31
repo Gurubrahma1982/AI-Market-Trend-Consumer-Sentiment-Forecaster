@@ -197,6 +197,7 @@ def get_rapid_data():
             print("✅ Sentiment analysis completed and saved successfully.")
 
     except Exception as e:
+        
         error_msg = (
         "❌ Failed to Extract News Data\n"
         f"Reason: {e}\n\n"
