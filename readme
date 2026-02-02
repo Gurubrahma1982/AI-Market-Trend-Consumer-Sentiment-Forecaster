@@ -1,82 +1,50 @@
 🚀 AI-Powered Market Trend & Consumer Sentiment Analysis
-📌 Overview
 
+📌 Overview :
 An AI-based system that analyzes consumer sentiment and market trends using data from e-commerce platforms and online sources. The project converts unstructured text data into actionable insights.
 
-🧠 Key Capabilities
+🧠 Key Capabilities :
+- Multi-source data ingestion
+- Data cleaning and preprocessing
+- Category-wise sentiment analysis
+- Topic modeling for insight extraction
+- Trend and sentiment spike detection
 
-Multi-source data ingestion
+🛠️ Project Pipeline :
+- Data Cleaning (cleaning.py) :
+  Removes noise, duplicates, and missing values
+-Data Merging :
+  Combines Amazon and Flipkart datasets
+- Data Reduction :
+  Optimizes dataset size for performance
+- Category Classification (category.py):
+  Assigns reviews to product categories
+- Sentiment Analysis (sentiment.py):
+  Labels sentiment: Positive, Neutral, Negative
+  Adds timestamps for trend analysis
+- Topic Modeling:
+  Extracts key discussion topics using NLP techniques
 
-Data cleaning and preprocessing
+- 🌐 API Integrations:
+news_api.py : Fetches sentiment from news articles
+reddit.py : Collects public opinions from Reddit
+rapid.py : Integrates external data using RapidAPI
 
-Category-wise sentiment analysis
+- 📊 Outputs:
+- Sentiment trends by category
+- Weekly sentiment spike detection
+- Topic-based insights for decision making
 
-Topic modeling for insight extraction
-
-Trend and sentiment spike detection
-
-🛠️ Project Pipeline
-
-Data Cleaning (cleaning.py)
-
-Removes noise, duplicates, and missing values
-
-Data Merging
-
-Combines Amazon and Flipkart datasets
-
-Data Reduction
-
-Optimizes dataset size for performance
-
-Category Classification (category.py)
-
-Assigns reviews to product categories
-
-Sentiment Analysis (sentiment.py)
-
-Labels sentiment: Positive, Neutral, Negative
-
-Adds timestamps for trend analysis
-
-Topic Modeling
-
-Extracts key discussion topics using NLP techniques
-
-🌐 API Integrations
-
-news_api.py – Fetches sentiment from news articles
-
-reddit.py – Collects public opinions from Reddit
-
-rapid.py – Integrates external data using RapidAPI
-
-📊 Outputs
-
-Sentiment trends by category
-
-Weekly sentiment spike detection
-
-Topic-based insights for decision making
-
-🧰 Tech Stack
-
+- 🧰 Tech Stack :
 Python
-
 pandas, numpy
-
 NLP & Topic Modeling
-
 APIs: News, Reddit, RapidAPI
 
-🎯 Use Cases
-
+- 🎯 Use Cases :
 Market analysis
-
 Product feedback monitoring
-
 Brand sentiment tracking
 
 📌 Conclusion
-
 The system enables data-driven decisions by transforming consumer opinions into meaningful market insights.
